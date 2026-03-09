@@ -1,1 +1,21 @@
 /* Add CSS Styling */
+
+.oddline {
+    background-color: rgb(240, 204, 210);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.oddline.oddline2 {
+    font-size: 24px;
+}
+
+#secondelem {
+    color: rgb(43, 43, 250);
+    font-size: 36px;
+}
+
+#fourelem {
+    background-color: rgb(106, 240, 106);
+    font-size: 24px;
+    font-weight: bold;
+}
