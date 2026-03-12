@@ -6,13 +6,28 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  
 }
+
+.left-nav, .right-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.right-nav div {
+  align-self: center;
+}
+
 
 .profile-image {
   background: rebeccapurple;
@@ -45,4 +60,8 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin-left: 5px;
 }
